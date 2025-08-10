@@ -1,21 +1,58 @@
 body {
   font-family: Arial, sans-serif;
-  background: #f4f4f4;
+  background-color: #fafafa;
+  color: #333;
   margin: 0;
-  padding: 0;
-  text-align: center;
+  padding: 0 1rem;
 }
 
 header {
-  background: #333;
+  background-color: #0055a5;
   color: white;
-  padding: 20px;
+  padding: 1rem 2rem;
+  text-align: center;
 }
 
-section {
+header h1 {
+  margin: 0;
+  font-weight: normal;
+}
+
+main {
+  max-width: 900px;
+  margin: 2rem auto;
   background: white;
-  margin: 20px auto;
-  padding: 20px;
-  max-width: 600px;
+  padding: 2rem;
   border-radius: 5px;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
+}
+
+.overview ul {
+  list-style-type: disc;
+  margin-left: 1.5rem;
+}
+
+.schedule table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.schedule th,
+.schedule td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.schedule th {
+  background-color: #0055a5;
+  color: white;
+  text-align: left;
+}
+
+footer {
+  text-align: center;
+  color: #888;
+  padding: 1rem;
+  font-size: 0.9rem;
 }
