@@ -1,33 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CS 145 - Databases</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header>
-    <h1>Your Name</h1>
-    <p>Web Developer | Designer | Programmer</p>
+    <h1>CS 145 - Databases</h1>
+    <p>Course on using databases, designing scalable data systems, and SQL+Python project on BigQuery</p>
   </header>
 
-  <section>
-    <h2>About Me</h2>
-    <p>Write a short intro about yourself here.</p>
-  </section>
+  <main>
+    <section class="overview">
+      <h2>Course Overview</h2>
+      <p>This course covers how to use databases in applications, first principles on how to scale for large data sets and how to design good data systems.</p>
+      <ul>
+        <li>Introduction to relational data model, relational database engines, and SQL.</li>
+        <li>How to scale systems for large data sets on servers and server clusters</li>
+        <li>How to design good schemas based on dependencies, normal forms including indexes, views, and transactions.</li>
+        <li>Programming project involving SQL+Python querying and analyzing terabytes of data on BigQuery</li>
+      </ul>
+    </section>
 
-  <section>
-    <h2>Projects</h2>
-    <ul>
-      <li>Project 1 – Description</li>
-      <li>Project 2 – Description</li>
-    </ul>
-  </section>
+    <section class="schedule">
+      <h2>Course Schedule</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Event</th>
+            <th>Date</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Lecture 1</td>
+            <td>9/24 Tu</td>
+            <td>Why Databases? Concepts: Data models, DB systems overview</td>
+          </tr>
+          <tr>
+            <td>Lecture 2</td>
+            <td>9/26 Th</td>
+            <td>SQL I Concepts: Schemas, Systems, Select-From-Where</td>
+          </tr>
+          <tr>
+            <td>Project 1 Release</td>
+            <td>9/30 Mon</td>
+            <td>See Course Info for submission info and regrade policy</td>
+          </tr>
+          <!-- You can add more schedule rows as needed -->
+        </tbody>
+      </table>
+    </section>
+  </main>
 
-  <section>
-    <h2>Contact</h2>
-    <p>Email: your.email@example.com</p>
-  </section>
+  <footer>
+    <p>Instructor: Shiva Shivakumar | TAs: Albert Feng (head) et al.</p>
+  </footer>
+
+  <script src="scripts.js"></script>
 </body>
 </html>
