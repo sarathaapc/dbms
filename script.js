@@ -1,2 +1,2 @@
-/ Placeholder for any future interactivity
+// Placeholder for any future interactivity
 console.log("CS 145 GitHub Page loaded.");
